@@ -1,7 +1,8 @@
 # glimmer-di-inspector
 
-This README outlines the details of collaborating on this Glimmer application.
-A short introduction of this app could easily go here.
+Small Glimmer app for inspecting resolver information for a given module path.
+
+[https://glimmer-di-inspector.netlify.com](glimmer-di-inspector.netlify.com)
 
 ## Prerequisites
 
