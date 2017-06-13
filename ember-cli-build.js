@@ -1,10 +1,15 @@
 'use strict';
 
 const GlimmerApp = require('@glimmer/application-pipeline').GlimmerApp;
+const commonjs = require('rollup-plugin-commonjs');
 
 module.exports = function(defaults) {
   let app = new GlimmerApp(defaults, {
-    // Add options here
+    rollup: {
+      plugins: [
+        commonjs()
+      ]
+    }
   });
 
   // Use `app.import` to add additional libraries to the generated
