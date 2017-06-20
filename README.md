@@ -2,7 +2,7 @@
 
 Small Glimmer app for inspecting resolver information for a given module path.
 
-[https://glimmer-di-inspector.netlify.com](glimmer-di-inspector.netlify.com)
+[https://glimmer-di-inspector.netlify.com](https://glimmer-di-inspector.netlify.com)
 
 ## Prerequisites
 
